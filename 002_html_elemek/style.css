@@ -1,0 +1,23 @@
+body {
+    background: cadetblue;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    border: 5px solid black;
+}
+
+th, td {
+    border: 2px solid black;
+}
