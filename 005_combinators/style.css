@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    color:#333333;
+    background: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: linear-gradient(135deg,lightblue,purple);
+    text-align: center;
+    padding: 2rem;
+}
+
+/*combinator példák*/
+.cards p{
+    color:#555555;
+}
+
+.card > h3{
+    color: cadetblue;
+}
+
+.card > span{
+    font-style: italic;
+}
+
+article h3+p{
+    text-decoration: underline;
+}
+
+article h3~p {
+    margin-left: 2rem;
+}
+
+.card.highlight > p{
+    color: crimson;
+    font-weight: bold;
+}
