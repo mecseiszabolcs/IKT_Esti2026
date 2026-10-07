@@ -1,0 +1,40 @@
+/*univerzális szelektor*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*nem számolja az elem szélességébe a belső(padding) és külső(margin) margót*/
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    list-style: none;/*eltávolítja a lista feslorolás elemeit*/
+}
+
+/*child kombinátor=az ul elemen belüli li gyerekelemet*/
+ul > li {
+    display: inline-block;/*blokkon belüli elemekegymás mellett jelennek meg*/
+    margin: 20px;
+}
+
+li > a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+    position: relative;
+}
+
+li > a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: cadetblue;
+    transition: width 0.3s ease-in;
+}
+
+li > a:hover::after {
+    width: 100%;
+}
