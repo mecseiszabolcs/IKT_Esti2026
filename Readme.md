@@ -3,4 +3,5 @@
 - elso_webolda
 - html_elemek
 - tablazat_gyakorlas
-- pseudo_elemekgit
+- pseudo_osztalyokgit
+- combinator_szelektorok
