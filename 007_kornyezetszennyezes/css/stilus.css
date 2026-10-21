@@ -1,0 +1,125 @@
+body {
+	font-size: large;
+	/* background-color: brown; */
+}
+
+header {    
+    height: 350px;
+	background: url('../kepek/kornyezet2.jpg');
+	background-position: center;
+}
+
+h1 {
+	font-size: 35px;
+	text-align: center;
+	margin-top: 25px;
+	font-family: 'Lucida Handwriting';	
+}
+
+h2 {
+	background-color: darkslategrey;
+	color: cadetblue;
+	font-weight: bold;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 5px;
+	font-size: 25px;
+	text-align: center;
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+
+h3 {    
+    color: lightseagreen;    
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+	margin: 10px;
+}
+
+h4 {
+	opacity: 50%;
+}
+
+li {
+	font-size: 25px;
+
+	margin-top: 20px;
+	font-style: italic;
+
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: green;
+}
+
+#kornyezetvedelem {
+	border: 5px dashed darkgreen;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#kornyezetvedelem a:hover {
+	color: darkgreen;
+	font-weight: bold;
+}
+
+.nagyobb {
+	padding: 10px;
+	font-size: 20px;
+}
+
+.nagyszoveg {
+	font-size: 50px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-shadow: 5px 5px 5px black;
+	border-radius: 50px 100px;
+	padding: 5px;
+	text-align: center;
+}
+
+table {
+	margin:auto;
+	border: 2px solid blueviolet;
+	margin-bottom: 100px;
+	border-collapse: collapse;
+}
+
+td,th {
+	text-align: center;
+	border: 2px solid blueviolet;
+	padding: 10px;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+	h4, #kornyezetvedelem li {
+		font-size: 15px;
+	}
+}
+
+#kornyezetvedelem > ul {
+	list-style: square;
+}
+
+hr {
+	border: none;
+	height: 10px;
+	background: gray;
+}
+
+img {
+	margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	h2, h3 {
+		font-size: large;
+	}
+}        

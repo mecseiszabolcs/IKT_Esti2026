@@ -1,0 +1,27 @@
+Kepék menüpont link:
+https://pixabay.com/images/search/pollution/
+
+Felsorolások linkjei:
+Greenpeace - https://www.greenpeace.org/
+WWF - https://www.worldwildlife.org/
+Zero Waste Europe - https://zerowasteeurope.eu/
+Plastic Pollution Coalition - https://www.plasticpollutioncoalition.org/
+Clean Seas - https://www.cleanseas.org/
+The Ocean Cleanup - https://theoceancleanup.com/
+
+Ember és természet kép link:
+https://hu.wikipedia.org/wiki/K%C3%B6rnyezetv%C3%A9delem
+
+Textilipar blokk:
+Textilipar
+Az iparág nagy mennyiségű víz- és vegyi anyag felhasználásával és a szennyező anyagok kibocsátásával jár, amelyek negatív hatással vannak a környezetre és az emberi egészségre. Az egyik legnagyobb probléma a textiliparban az egyszer használatos ruházat tömeges előállítása és eldobása, amelynek jelentős szerepe van a szemétlerakódásban és a hulladékproblémákban. A fenntartható textilipar, amely környezetbarát anyagokat és gyártási folyamatokat használ, valamint az újrahasznosítás és a környezettudatos vásárlás is segíthet a textilipar okozta károk csökkentésében.
+
+Reszponzivitáshoz:
+@media only screen and (max-width: 600px) {
+}                    
+                                
+html validátor:
+https://validator.w3.org/ 
+
+css validátor:
+https://jigsaw.w3.org/css-validator/
