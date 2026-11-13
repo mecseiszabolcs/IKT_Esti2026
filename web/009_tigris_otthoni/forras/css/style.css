@@ -1,5 +1,5 @@
 body{
-    background-color: #e8e2e1;    
+    background-color: #f0eeee;    
 }
 
 h1, h2{
@@ -18,7 +18,6 @@ img{
 .felkover{    
     color: rgb(16, 37, 82);
     font-weight: bold;
-    
 }
 
 .dolt{
@@ -43,18 +42,18 @@ img{
     font-style: italic;
 }
 
-nav,footer{
-    background: #024600;
+nav, footer {
+    background: #024600
 }
 
-header{
+header {
     height: 350px;
-    background: url(../img/tiger_bg.jpg);
-    background-position: center center;
-    object-fit: cover;
+    background-image: url(../img/tiger_bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
@@ -63,34 +62,33 @@ h1{
 h2{
     text-transform: capitalize;
     letter-spacing: 1px;
-    line-height: 70px;   
+    line-height: 70px;
 }
 
-p{
-    text-align: justify;
+p {
     text-indent: 20px;
+    text-align: justify;
 }
 
-main ul{
+p > ul {
     list-style: url(../img/tiger.png);
 }
 
-#taplalek{
-    background: rgba(255, 255, 255, 0.4);
+#taplalek {
+    background: rgba(255, 255, 255, 0.60);
     width: 80%;
     font-size: 1.2rem;
-    border: 5px double #5c3829;
+    border: double 5px #5c3829;
     padding: 10px 20px;
     margin: 15px auto;
 }
 
-.kolyok{
+.kolyok {
     display: block;
-    margin: 0 auto 15px auto;
-    width: 60%;
+   margin: 0px auto 15px;
+    width: 40%;
 }
 
-article img{
+article>img {
     border-radius: 30px;
 }
-
