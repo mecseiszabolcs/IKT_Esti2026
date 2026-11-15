@@ -94,3 +94,16 @@ article img{
     border-radius: 30px;
 }
 
+#elsokep {
+    filter: grayscale(100%);
+}
+#elsokep:hover {
+    filter: grayscale(0%);
+}
+
+#tigrislide {
+    display: block;
+    height: auto;
+    width: fit-content;
+    margin: 20px auto;
+}
